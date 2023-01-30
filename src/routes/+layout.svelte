@@ -1,6 +1,6 @@
 <script lang="ts">
   import LazyLoad from 'vanilla-lazyload';
-  import { Navbar, ScreenBlock, YandexMetrikaInit } from 'daks-svelte';
+  import { Navbar, Footer, ScreenBlock, YandexMetrikaInit } from 'daks-svelte';
 
   import '../app.css';
   import '$iconify';
@@ -41,6 +41,10 @@
 </svelte:head>
 
 <slot />
+
+<Footer
+  class="bg-neutral-200/50 dark:bg-inherit"
+  {...navigation.footer} />
 
 <Navbar
   class="bg-neutral-50 dark:bg-inherit
