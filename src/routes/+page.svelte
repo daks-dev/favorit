@@ -31,10 +31,10 @@
       destroyAfterDone: true
     }}
     aria-hidden="true" />
-  <h1 class="mb-4 text-2xl md:text-3xl lg:text-4xl xl:text-7xl text-slate-500">
+  <h1 class="mb-4 text-2xl md:text-3xl lg:text-4xl xl:text-7xl text-slate-500 dark:text-slate-500">
     Строительный &ndash; Контроль • Москва
   </h1>
-  <div class="relative h-[35vmin] aspect-square text-slate-700 dark:text-slate-400">
+  <div class="relative h-[35vmin] aspect-square text-slate-800 dark:text-slate-300">
     {#if visible}
       <div
         in:fly={{ y: -500, delay: 1500, duration: 1500 }}
@@ -59,7 +59,7 @@
       </div>
     {/if}
   </div>
-  <h3 class="mb-8 whitespace-nowrap text-3xl text-slate-400">&copy; СК «Фаворит»</h3>
+  <h3 class="mb-8 whitespace-nowrap text-3xl text-slate-500 dark:text-slate-500">&copy; СК «Фаворит»</h3>
   <a
     rel="noreferrer nofollow"
     class="button whitespace-nowrap hover:text-gray-100 hover:bg-slate-500"
