@@ -28,7 +28,7 @@
   <meta
     name="robots"
     content="noindex, follow" />
-  <title>DAKS PKG • Iconify</title>
+  <title>СК «Фаворит» • Iconify</title>
 </svelte:head>
 
 <main>
@@ -38,7 +38,7 @@
       rel="noreferrer nofollow"
       class="w-24 sm:w-32 hover:scale-110
              transition-all duration-300 ease-in-out"
-      href="https://github.com/daks-dev"
+      href="https://github.com/daks-dev/favorit.git"
       target="_blank">
       <img
         class="w-full h-auto"
